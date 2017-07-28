@@ -442,7 +442,7 @@ input[type="submit"],input[type="reset"],.w3ls_footer_grid_leftl,.w3ls_footer_gr
 	padding:5em 0;
 }
 .w3l_head{
-	font-size: 2.5em;
+	font-size: 32px;
     font-weight: bold;
     color: #212121;
 	letter-spacing: 3px;
@@ -1336,7 +1336,7 @@ ul#lightGallery {
 		margin: 1em 0 0;
 	}
 	.agileits_banner_bottom_grid_r {
-		margin-top: 6em;
+		margin-top: 10px;
 	}
 	.agileits_banner_btm_grid_r_pos {
 		position: absolute;
