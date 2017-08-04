@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
 	<title>Recruitment Team Form | MSC Champion</title>
     <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style1.css";
+
 </head>
 <body>
+    <a href='../index.html' class='button'>HOME</a>
+
     <div class="container-fluid">
-        <h1>Recruitment Team Form | MSC Champion</h1>
+        <h1 class="center"> Recruitment Team Form | MSC Champion </h1>
         <form class="form-horizontal">
             <div class="form-group">
                 <label class="col-sm-12 col-md-2 control-label">Team Name</label>
@@ -30,7 +34,9 @@
             <div class="form-group">
                 <label class="col-sm-12 col-md-2 control-label">Country</label>
                     <div class="col-sm-11 col-md-5">
-                    <input type="text" id="country" class="form-control">
+                    <input type="text" id="country" required ="" class="form-control">
+
+
                 </div>
                 </div>
                 <div class="form-group">
@@ -42,7 +48,7 @@
         
             <div class="tombol">
                 <button onclick="check()" class="btn btn-primary" type="button">Tambah</button>
-                <button class="btn btn-primary" type="button" style="display: none" id="btnUpdate">Update</button>
+                <button class="btn btn-primary" type="button" style="display: none" id="btnUpdate" onclick="checkUpdate()" >Update</button>
                 <button class="btn btn-default" type="button" onclick="resetForm()">Cancel</button>
             </div>
         </form>
@@ -146,6 +152,7 @@
 			table.querySelector("tbody").replaceChild(tr, element)
 
             resetForm()
+
         }
 
 		function tambahData() {
@@ -170,12 +177,25 @@
             var telepon = document.querySelector('#telepon')
             var country = document.querySelector("#country")
             var member = document.querySelector("#member")
-            if(nama.value==="" || email.value==""  || telepon.value=="" || country.value=="" || member.val==""){
+            if(nama.value==="" || email.value==""  || telepon.value=="" || country.value=="" || member.value==""){
                 alert("Data tidak lengkap")
             }else{
                 tambahData()
             }
         }
+        function checkUpdate() {
+            var nama = document.querySelector("#nama")
+            var email = document.querySelector("#email")    
+            var telepon = document.querySelector('#telepon')
+            var country = document.querySelector("#country")
+            var member = document.querySelector("#member")
+            if(nama.value==="" || email.value==""  || telepon.value=="" || country.value=="" || member.value==""){
+                alert("Data tidak lengkap")
+            }else{
+               updateData()
+            }
+        }
+
 
 	</script>
     <script src="jquery-3.2.1.min.js"></script>

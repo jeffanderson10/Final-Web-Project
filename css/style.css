@@ -313,7 +313,7 @@ input[type="submit"],input[type="reset"],.w3ls_footer_grid_leftl,.w3ls_footer_gr
 	padding: 10px 20px;
 	margin: 0;
 	max-width: none;
-	top: 10%;
+	top: 20%;
 	text-align: center;
 }
 .callbacks_nav {
@@ -520,7 +520,7 @@ input[type="submit"],input[type="reset"],.w3ls_footer_grid_leftl,.w3ls_footer_gr
 /*-- services --*/
 /*-- services --*/
 .services{
-	background:url(../images/service.jpg) no-repeat center;
+	background:url(../images/tes.jpg) no-repeat center;
 	background-size:cover;
 	-webkit-background-size: cover;
 	-o-background-size: cover;
@@ -554,7 +554,7 @@ a.hi-icon img {
 }
 
 .services-gd h4 {
-	color: #2098d1;
+	color: #ff5000;
     margin-top: 20px;
     font-size: 1.5em;
     letter-spacing: 2px;
@@ -665,6 +665,7 @@ a.hi-icon img {
 }
 .projects-agile-grid-info img{
 	width:100%;
+  height :600px;
 }
 i.fa.fa-cutlery {
     color: #FFFFFF;
@@ -1336,7 +1337,7 @@ ul#lightGallery {
 		margin: 1em 0 0;
 	}
 	.agileits_banner_bottom_grid_r {
-		margin-top: 10px;
+		margin-top: 10px    ;
 	}
 	.agileits_banner_btm_grid_r_pos {
 		position: absolute;
